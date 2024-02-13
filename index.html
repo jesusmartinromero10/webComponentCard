@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/first.css">
     <link rel="preload" href="css/guide.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="stylesheet" href="css/guide.css">
+    <script src="./web-components/card/cardComponent.js"></script>
 </head>
 <body>
     <nav id="main-menu">
@@ -33,6 +34,20 @@
                         <h2>Colores</h2>
                     </header>
                     <div class="wrapper">
+                        <card-component class="guide-color"><span slot="text-card">
+                            <ul class="bg-primary-color font-contrast-color">
+                            <li><hr></li>
+                            <li><b>Color --primary-color</b></li>
+                            <li>--primary-color: #c9ab81</li>
+                            <li>--primary-complement-color: #819fc9</li>
+                            <li>--primary-dark-color: #7c5e35</li>
+                            <li>--primary-darkest-color: #352817</li>
+                            <li>--primary-light-color: #f7f2ec</li>
+                            <li>--primary-lightest-color: white</li>
+                        </ul>
+                    </span>
+                    </card-component>
+
                         <div class="guide-color">
                             <ul class="bg-primary-color font-contrast-color">
                                 <li><hr></li>
